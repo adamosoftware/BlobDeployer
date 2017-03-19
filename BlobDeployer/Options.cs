@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 namespace BlobDeployer
 {
 	public class Options
-	{
-		public string ProductName { get; set; }
+	{		
 		public string MainExe { get; set; }
 		public string DeployMasterExe { get; set; }
 		public string DeployMasterScript { get; set; }
